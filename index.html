@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Zodiac</title>
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+</head>
+<body>
+	<br><br><br><br><br><br><br><br>
+	<form>
+		<input placeholder = "Please enter your zodiac sign and click button." id = "sign">
+		<br><br>
+		<button type = "button" onclick = "horoscope()">Get Your Horoscope</button><br>
+	</form><br>
+	<h2>- OR -</h2>
+	<br>
+	<form>
+		<input placeholder = "Birth month (numeric) and click button." id = "month"><br>
+		<input placeholder = "Birth day (numeric) and click button." id = "day"><br>
+		<input placeholder = "Birth year (numeric) and click button." id = "year"><br><br>
+		<button type = "button" onclick = "horoscopeDate()">Get Your Horoscope</button><br>
+	</form>
+	<h1 id="output"></h1>
+
+
+	<script src="js/main.js">
+	</script>
+</body>
+</html>

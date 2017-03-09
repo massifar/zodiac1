@@ -1,0 +1,25 @@
+* {
+  background-color: #030;
+	margin:0;
+	padding:0;
+	text-align: center;
+}
+
+#sign {
+  padding: 10px 0 10px 0;
+  width: 25%;
+	margin: auto;
+	display: block;
+}
+ #month, #day, #year {
+  padding: 10px 0 10px 0;
+	width: 25%;
+	margin: auto;
+	display: block;
+  /*background-color: #f9f704;*/
+}
+button {
+  padding: 10px 10px 10px 10px;
+  font-size: 20px;
+  background-color: #f00;
+}
